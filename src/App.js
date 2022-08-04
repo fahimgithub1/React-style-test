@@ -39,6 +39,18 @@ const Box1 = styled.div`
   &.inValid input{
     background-color: rgb(207, 30, 30);
   }
+
+  @media (max-width: 768px){
+    width: 70%;
+
+    & button{
+      width: 100%;
+    }
+
+    & input{   
+      width: 98%;
+    }
+  }
 `;
 
 const Box2 = styled.div`

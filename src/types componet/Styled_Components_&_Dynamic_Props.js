@@ -39,6 +39,18 @@ const Box1 = styled.div`
   &.inValid input{
     background-color: rgb(207, 30, 30);
   }
+  
+  @media (max-width: 768px){
+    width: 70%;
+
+    & button{
+      width: 100%;
+    }
+
+    & input{   
+      width: 98%;
+    }
+  }
 `;
 
 const Box2 = styled.div`
@@ -75,7 +87,7 @@ function StyledComponentsynamicPropspp() {
 
   return (
     <div className="App">
-      <Box1 className={!valid && 'inValid'}>
+      <Box1 className={!valid && 'inValid'}>  {/*  className={!valid ? 'inValid':''} */}
         <label className='label'>Input data</label>
         <input type="text" onChange={inputChanger}/>
         <br/>

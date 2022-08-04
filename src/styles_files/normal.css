@@ -13,7 +13,7 @@
     font-weight: bold;
 }
 
-.box-1 input{   
+.box-1 .input{   
     width: 90%;
     height: 23px;
     margin-top: .7rem;
@@ -44,4 +44,8 @@
     margin-bottom: 1rem;
     background-color: rgb(5, 133, 122);
     box-shadow: 0 0 4px rgb(70, 104, 101);
+}
+
+.inValid{
+    background-color: rgb(207, 30, 30);
 }

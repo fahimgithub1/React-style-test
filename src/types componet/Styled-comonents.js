@@ -1,9 +1,16 @@
-import './styles_files/normal.css';
-import './App.css';
+
+import '../styles_files/normal.css';
+// import './App.css';
 import { useState } from 'react';
+import DIV from '../styles_files/DIVcompnent';
+// import styled from 'styled-components';
 
+// const DIV = styled.div`
+//   color :red;
+//   background-color: white;
+// `;
 
-function App() {
+function Styledcomonents() {
   const [inputValu, setInputValu] = useState('');
   const [valid, setValid] = useState(true);
 
@@ -31,14 +38,14 @@ function App() {
         <button onClick={submitHandel}>Set Values</button>
       </div>
 
-      <div className="box-2">
+      <DIV className="box-2">
         <p>Frist inputed data</p>
-      </div>
-      <div className="box-2">
+      </DIV>
+      <DIV className="box-2">
         <p>Frist inputed data</p>
-      </div>
+      </DIV>
     </div>
   );
 }
 
-export default App;
+export default Styledcomonents;

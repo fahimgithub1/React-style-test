@@ -1,0 +1,47 @@
+.box-1{
+    width: 30%;
+    margin: auto;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-align: left;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 0 10px rgb(73, 65, 65);
+}
+
+.box-1 .label{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.box-1 input{   
+    width: 90%;
+    height: 23px;
+    margin-top: .7rem;
+    margin-bottom: .9rem;
+}
+
+.box-1 button{
+    font-size: 20px;
+    /* font-weight: bold; */
+    background-color: rgb(217, 51, 51);
+    padding: 12px 24px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 1.2rem;
+}
+
+/* =================== */
+.box-2{
+    width: 33%;
+    margin: auto;
+    margin-top: 1rem;
+    padding: .2px 30px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(217, 51, 51);
+    box-shadow: 0 0 10px rgb(93, 53, 53);
+}

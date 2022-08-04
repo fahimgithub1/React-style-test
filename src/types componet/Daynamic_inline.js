@@ -26,6 +26,11 @@ function DaynamicInline() {
                className={`input ${!valid? 'inValid':''}`}
                onChange={inputChanger}
         />
+        {/* <input type="text" 
+               className='input'
+               style={{color: !valid? 'red': '', background: !valid? 'green': ''}}
+               onChange={inputChanger}
+        /> */}
         <br/>
         <button onClick={submitHandel}>Set Values</button>
       </div>

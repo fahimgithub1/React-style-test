@@ -1,5 +1,5 @@
 // import './styles_files/normal.css';
-import './App.css';
+// import './App.css';
 import { useState } from 'react';
 import styled from 'styled-components';
 
@@ -57,7 +57,7 @@ const Box2 = styled.div`
 `;
 
 
-function App() {
+function StyledComponentsynamicPropspp() {
   const [inputValu, setInputValu] = useState('');
   const [valid, setValid] = useState(true);
 
@@ -93,4 +93,5 @@ function App() {
   );
 }
 
-export default App;
+export default StyledComponentsynamicPropspp;
+// Styled_Components_&_Dynamic_Props
